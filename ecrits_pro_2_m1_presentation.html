@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Présentation — Écrits professionnels 2/6 — orthographe et vocabulaire de la relation client</title>
+<style>
+:root{--prune:#8C1E70;--prune-fonce:#5E1349;--prune-clair:#F4E6EE;--accent:#C77BAA;
+ --vert:#283C28;--gris:#3C3C3C;--gris-moyen:#8A7A85;--filet:#E8DCE5;--creme:#FAF6F8;
+ --ok:#2F7A4F;--ko:#B23B3B;--amb:#B5852A;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--creme);color:var(--gris);
+ font-family:"Nunito","Segoe UI",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.62}
+.wrap{max-width:900px;margin:0 auto;padding:0 18px 60px}
+header.bandeau{background:var(--prune-fonce);color:#fff;padding:18px 0;border-bottom:4px solid var(--accent)}
+header.bandeau .wrap{padding-bottom:0}
+.chapitre{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:#EAD3E3}
+.chapitre span{color:var(--accent);margin:0 6px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:27px;line-height:1.25;margin:8px 0 4px;color:#fff}
+.sous{color:#EAD3E3;font-size:14.5px;margin:0}
+h2{font-family:Georgia,"Times New Roman",serif;font-size:20px;color:var(--prune-fonce);
+ margin:34px 0 0;padding-bottom:8px;border-bottom:2px solid var(--filet)}
+h2 .num{color:var(--accent);margin-right:8px}
+h3{font-size:15px;color:var(--vert);margin:20px 0 8px;letter-spacing:.02em}
+.carte{background:#fff;border:1px solid var(--filet);border-radius:10px;padding:20px 22px;margin:18px 0;
+ box-shadow:0 1px 2px rgba(94,19,73,.05)}
+.enc{background:var(--prune-clair);border-left:5px solid var(--prune);padding:14px 18px;
+ border-radius:0 8px 8px 0;margin:18px 0;font-size:15.2px}
+.enc .t{display:block;font-size:11.5px;letter-spacing:.11em;text-transform:uppercase;
+ font-weight:800;color:var(--prune-fonce);margin-bottom:6px}
+.enc.al{background:#FBF4F4;border-left-color:var(--ko)}.enc.al .t{color:var(--ko)}
+.enc.ci{background:#FCF8F0;border-left-color:var(--amb)}.enc.ci .t{color:#8A6418}
+.situ{background:#FCF9FB;border:1px dashed var(--filet);border-radius:8px;padding:16px 18px;margin:16px 0;font-size:15.2px}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:16px 0}
+.duo>div{background:#fff;border:1px solid var(--filet);border-radius:9px;padding:15px 17px;font-size:14.8px}
+.duo .h{font-weight:800;color:var(--prune-fonce);margin-bottom:7px;font-size:14.5px}
+.tri{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
+.tri>div{background:#fff;border:1px solid var(--filet);border-radius:9px;padding:14px 15px;font-size:14.3px}
+.quad{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0}
+.quad>div{background:#fff;border:1px solid var(--filet);border-radius:9px;padding:12px 13px;font-size:13.6px}
+.quad .h{font-weight:800;color:var(--prune-fonce);margin-bottom:6px;font-size:13px;
+ text-transform:uppercase;letter-spacing:.04em}
+.tri .h{font-weight:800;color:var(--prune-fonce);margin-bottom:6px;font-size:13.5px;
+ text-transform:uppercase;letter-spacing:.05em}
+table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14.8px;background:#fff}
+th,td{border:1px solid var(--filet);padding:9px 12px;text-align:left}
+thead th{background:var(--prune-clair);color:var(--prune-fonce);font-size:13.5px}
+tbody th{font-weight:600;color:var(--gris)}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.tot td,tr.tot th{background:#FBF3F8;font-weight:800;color:var(--prune-fonce)}
+.dl{display:inline-flex;align-items:center;gap:9px;background:var(--prune);color:#fff;text-decoration:none;
+ padding:11px 20px;border-radius:8px;font-weight:700;font-size:15px;margin:20px 0 4px}
+.dl:hover{background:var(--prune-fonce)}
+ol.q{padding-left:0;list-style:none;counter-reset:q}
+ol.q>li{margin:16px 0;padding-left:38px;position:relative}
+ol.q>li::before{counter-increment:q;content:counter(q);position:absolute;left:0;top:1px;
+ width:26px;height:26px;border-radius:50%;background:var(--prune-clair);color:var(--prune-fonce);
+ font-weight:800;font-size:14px;display:flex;align-items:center;justify-content:center}
+b,strong{color:var(--vert)}
+footer{text-align:center;font-size:12.5px;color:var(--gris-moyen);padding:26px 18px 12px;
+ border-top:1px solid var(--filet);margin-top:44px}
+@media(max-width:860px){.quad{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.duo,.tri,.quad{grid-template-columns:1fr}h1{font-size:22px}}
+@media print{body{background:#fff}.dl{display:none}header.bandeau{background:#5E1349 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+td{vertical-align:top}td:first-child{white-space:nowrap}</style></head>
+<body>
+<header class="bandeau"><div class="wrap">
+ <div class="chapitre">Écrits professionnels 2/6 <span>/</span> Module 1</div><h1>Présentation de la journée</h1><p class="sous">Ce que vous allez travailler aujourd'hui, et pourquoi en relation client</p>
+</div></header>
+<div class="wrap">
+
+<h2><span class="num">1 ·</span>Pourquoi l'écrit compte autant en relation client</h2>
+<div class="carte">
+<p>À distance, le client ne voit ni votre visage ni votre plateau : il lit vos mails, vos SMS, vos réponses sur le chat. Quand il vous écrit pour <b>un problème</b> — un colis abîmé, une commande en retard, un remboursement attendu —, chaque faute compte double. Le client se dit : « s'il ne fait pas attention à l'orthographe, fait-il attention à mon dossier ? »</p>
+<div class="enc"><span class="t">CE QUE LE CLIENT ATTEND D'UN ÉCRIT</span>De l'<b>exactitude</b> (montants, dates, délais), de la <b>clarté</b> (pas de jargon qu'il ne comprend pas) et de la <b>prudence</b> (on ne promet pas ce qu'on ne maîtrise pas). Les trois s'apprennent : c'est l'objet des six journées d'écrits professionnels.</div>
+</div>
+
+<h2><span class="num">2 ·</span>Le programme de la journée</h2>
+<div class="carte">
+<table><thead><tr><th>Module</th><th>Contenu</th><th>Durée indicative</th></tr></thead><tbody>
+<tr><td><b>1</b></td><td>Dictée n° 2 — un colis abîmé — et synthèse du texte</td><td class="n">40 min</td></tr>
+<tr><td><b>2</b></td><td>Futur ou conditionnel ? S'engager sans promettre ce qu'on ne maîtrise pas</td><td class="n">1 h 15</td></tr>
+<tr><td><b>3</b></td><td>L'accord du participe passé, sur des écrits de suivi de commande</td><td class="n">1 h 30</td></tr>
+<tr><td><b>4</b></td><td>Le détecteur de fautes : relire un mail de réclamation en trois passes</td><td class="n">45 min</td></tr>
+<tr><td><b>5</b></td><td>Le vocabulaire de la relation client à distance : du terme technique au mot du client</td><td class="n">1 h 15</td></tr>
+<tr><td><b>6</b></td><td>Évaluation de la journée</td><td class="n">30 min</td></tr>
+</tbody></table>
+<p style="font-size:14px;color:var(--gris-moyen)">Les modules sont à réaliser dans l'ordre. L'heure d'accompagnement avec votre formateur ou votre formatrice reprend vos exercices.</p>
+</div>
+
+<h2><span class="num">3 ·</span>Les situations que vous allez retrouver</h2>
+<div class="carte">
+<p>Les textes, mails et exercices de la journée s'appuient sur des <b>situations courantes de la relation client à distance</b>. Vous n'avez rien de nouveau à apprendre sur le fond : vous allez écrire juste sur des sujets que vous connaissez.</p>
+<div class="tri">
+<div><div class="h">Commande et livraison</div>Suivi de colis, retard, rupture de stock, réexpédition, point relais, changement d'adresse.</div>
+<div><div class="h">Réclamation et après-vente</div>Colis abîmé, article manquant, garantie, geste commercial, transmission au service concerné.</div>
+<div><div class="h">Retour et remboursement</div>Droit de rétractation, formulaire de retour, remboursement, bon d'achat, facture rectificative.</div>
+</div>
+<div class="enc ci"><span class="t">UN CONSEIL POUR LA JOURNÉE</span>Gardez à portée de main vos fiches mémo d'écrits professionnels 1. Si un chiffre ou un délai vous échappe dans un exercice, vérifiez-le : un écrit juste sur la forme et faux sur le fond reste un écrit faux.</div>
+</div>
+
+
+<footer>TMK Performances - N° Siret : 49841924100027 - Code NAF : 8559A</footer>
+</div>
+</body></html>
